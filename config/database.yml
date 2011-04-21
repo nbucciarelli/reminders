@@ -1,19 +1,19 @@
 development:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   database: reminders_development
   pool: 5
   timeout: 5000
 
 test: &test
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   database: reminders_test
   pool: 5
   timeout: 5000
 
 production:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   database: reminders_production
   pool: 5
