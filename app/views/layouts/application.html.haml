@@ -1,2 +1,6 @@
-%input{:type => 'text'}
-%input{:type => 'button', :value => 'Submit'}
+= form_for @email do |f|
+  = f.label :email
+  %br
+  = f.text_field :email
+  %br
+  = f.submit
