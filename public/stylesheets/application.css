@@ -24,10 +24,40 @@ input.button {
   border: 2px solid black;
   font-size: 40px; }
 
+div.errorExplanation {
+  margin: 0 auto;
+  padding: 5px 30px;
+  width: 150px;
+  background-color: #ffcfcf;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top: 1px solid #801b1b;
+  border-left: 1px solid #801b1b;
+  border-right: 1px solid #801b1b; }
+  div.errorExplanation h2 {
+    display: none; }
+  div.errorExplanation p {
+    display: none; }
+  div.errorExplanation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    div.errorExplanation ul li {
+      color: #801b1b; }
+
 div.field_with_errors input {
+<<<<<<< HEAD
   background-color: yellow; }
 
 body {
   /*background-color: #eee */
   background-image: -moz-linear-gradient(bottom, white, #bbbbbb);
   background-repeat: no-repeat; }
+=======
+  border: 1px solid #801b1b;
+  margin-top: 0px;
+  background-color: #ffcfcf;
+  color: #801b1b; }
+>>>>>>> 4de5f475464d13cc633be80e58f816bebd4814ce
