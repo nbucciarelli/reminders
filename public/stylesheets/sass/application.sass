@@ -1,3 +1,6 @@
+$salmon: rgb(255,207,207)
+$dark_red: rgb(128,27,27)
+
 #container
   width: 800px
   margin: 100px auto 0 auto
@@ -20,7 +23,34 @@ input.button
   border: 2px solid #000
   font-size: 40px
 
+div.errorExplanation
+  margin: 0 auto
+  padding: 5px 30px
+  width: 150px
+  background-color: $salmon
+  -moz-border-radius-topleft: 10px
+  -webkit-border-top-left-radius: 10px
+  -moz-border-radius-topright: 10px
+  -webkit-border-top-right-radius: 10px
+  border-top: 1px solid $dark_red
+  border-left: 1px solid $dark_red
+  border-right: 1px solid $dark_red
+  h2
+    display: none
+  p
+    display: none
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    li
+      color: $dark_red
+
+
 div.field_with_errors
   input
-    background-color: yellow
+    border: 1px solid $dark_red
+    margin-top: 0px
+    background-color: $salmon
+    color: $dark_red
 
