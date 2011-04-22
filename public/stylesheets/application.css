@@ -4,7 +4,11 @@
   border: 1px solid black;
   min-height: 400px;
   -moz-border-radius: 10px;
-  -webkit-border-radius: 10px; }
+  -webkit-border-radius: 10px;
+  -moz-box-shadow: 0 0 10px;
+  -webkit-box-shadow: 10px #888888;
+  box-shadow: 10px #888888;
+  background-color: white; }
 
 #input_box {
   margin: 100px auto;
@@ -44,7 +48,16 @@ div.errorExplanation {
       color: #801b1b; }
 
 div.field_with_errors input {
+<<<<<<< HEAD
+  background-color: yellow; }
+
+body {
+  /*background-color: #eee */
+  background-image: -moz-linear-gradient(bottom, white, #bbbbbb);
+  background-repeat: no-repeat; }
+=======
   border: 1px solid #801b1b;
   margin-top: 0px;
   background-color: #ffcfcf;
   color: #801b1b; }
+>>>>>>> 4de5f475464d13cc633be80e58f816bebd4814ce
