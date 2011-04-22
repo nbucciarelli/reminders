@@ -1,0 +1,7 @@
+#input_box
+  = form_for @email do |f|
+    = f.error_messages
+    = f.text_field :email, :class => 'field'
+    %br
+    %br
+    = f.submit 'Remind Me!', :class => 'button'
