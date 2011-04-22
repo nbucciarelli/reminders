@@ -4,9 +4,9 @@
   border: 1px solid black;
   min-height: 400px;
   -moz-border-radius: 10px;
-  -moz-box-shadow: 0 0 10px;
+  -moz-box-shadow: 0 0 10px black;
   -webkit-border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px #888888;
+  -webkit-box-shadow: 0 0 10px black;
   background-color: white; }
 
 #input_box {
