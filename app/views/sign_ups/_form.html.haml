@@ -1,5 +1,5 @@
-#input_box
-  = form_for @sign_up do |f|
+#sign_up_form
+  = form_for @sign_up, :html => { :id => 'sign_up_form'} do |f|
     = f.error_messages
     = f.text_field :email, :class => 'field'
     %br
