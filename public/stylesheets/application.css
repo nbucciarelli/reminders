@@ -6,8 +6,7 @@
   -moz-border-radius: 10px;
   -moz-box-shadow: 0 0 10px;
   -webkit-border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px;
-  box-shadow: 10px #888888;
+  -webkit-box-shadow: 0 0 10px #888888;
   background-color: white; }
 
 #input_box {
