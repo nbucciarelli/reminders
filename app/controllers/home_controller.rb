@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   respond_to :html, :json
 
   def show
-    @email = Email.new
-    respond_with @email, :location => root_path
+    @sign_up = SignUp.new
+    respond_with @sign_up, :location => root_path
   end
 end

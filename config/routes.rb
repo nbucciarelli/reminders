@@ -2,7 +2,7 @@ Reminders::Application.routes.draw do
   match '/auth/:provider/callback', :to => 'sessions#callback'
   root :to => 'home#show'
 
-  resources :emails
+  resources :sign_ups
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

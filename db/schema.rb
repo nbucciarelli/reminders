@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(:version => 20110421232852) do
 
-  create_table "emails", :force => true do |t|
+  create_table "sign_ups", :force => true do |t|
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
