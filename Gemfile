@@ -11,5 +11,5 @@ gem 'mysql2'
 gem 'dynamic_form'
 gem 'heroku'
 gem 'barista'
-
+gem 'json'
 gem 'delayed_job'
