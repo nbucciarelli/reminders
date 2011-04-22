@@ -12,6 +12,7 @@ class SignUpsController < ApplicationController
   def create
     @sign_up = SignUp.new(params[:sign_up])
     if @sign_up.save
+      Notifier.delay.welcome_email(@sign_up.email)
       flash[:notice] = 'Successfully added your email to the mailing list.'
       respond_with @sign_up, :location => root_path
     else

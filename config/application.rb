@@ -41,5 +41,18 @@ module Reminders
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+     :address => 'smtp.gmail.com',
+     :port => 587,
+     :domain => 'gmail.com',
+     :user_name => 'test.remind.me@gmail.com',
+     :password => 'remind_me',
+     :authentication => 'plain',
+     :enable_starttls_auto => true
+    }
+
+
   end
 end
