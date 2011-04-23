@@ -1,7 +1,7 @@
 #sign_up_form
   = form_for @sign_up, :html => { :id => 'sign_up_form'} do |f|
     = f.error_messages
-    = f.text_field :email, :class => 'field'
+    = f.text_field :email, :class => 'field', :placeholder => 'Enter email'
     %br
     %br
     = f.submit 'Sign Up!', :class => 'button'
