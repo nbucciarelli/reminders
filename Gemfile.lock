@@ -149,6 +149,7 @@ GEM
     rubyntlm (0.1.1)
     rubyzip (0.9.4)
     term-ansicolor (1.0.7)
+    therubyracer-heroku (0.8.1.pre3)
     thor (0.14.6)
     treetop (1.4.10)
       polyglot
@@ -171,3 +172,4 @@ DEPENDENCIES
   mysql2 (< 0.3)
   omniauth (~> 0.2.0)
   rails (= 3.0.7)
+  therubyracer-heroku (= 0.8.1.pre3)
