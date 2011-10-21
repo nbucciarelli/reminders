@@ -13,3 +13,6 @@ gem 'heroku'
 gem 'barista'
 gem 'json'
 gem 'delayed_job'
+
+gem 'jquery-rails'
+gem 'client_side_validations'

@@ -4,7 +4,7 @@
     - ['application'].each do |css|
       %link{ :href => "/stylesheets/#{css}.css", :rel => "stylesheet", :type => "text/css", :media => "screen", :charset => "utf-8" }
 
-    - ['jquery/jquery-1.5.1.min', 'jquery/jquery-ui-1.8.11.custom.min', 'jquery/jquery.validate.min', 'rails', 'sign_ups', 'application'].each do |js|
+    - ['jquery/jquery-1.5.1.min', 'jquery/jquery-ui-1.8.11.custom.min','rails.validations', 'rails', 'sign_ups', 'application'].each do |js|
       %script{:src => "/javascripts/#{js}.js", :type => 'text/javascript'}
 
   %body
