@@ -169,7 +169,7 @@ DEPENDENCIES
   heroku
   jquery-rails
   json
-  mysql2 (< 0.3)
+  mysql2
   omniauth (~> 0.2.0)
   rails (= 3.0.7)
   therubyracer-heroku (= 0.8.1.pre3)
