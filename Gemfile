@@ -8,6 +8,7 @@ gem "jquery-rails"
 gem "omniauth", "~> 0.2.0"
 gem 'mysql2'
 
+
 gem 'dynamic_form'
 gem 'heroku'
 gem 'barista'
